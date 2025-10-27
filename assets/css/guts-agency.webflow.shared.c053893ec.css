@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
+  direction: rtl;
 }
 
 body {
@@ -2165,83 +2168,6 @@ textarea.w-select {
   display: grid;
 }
 
-@font-face {
-  font-family: "Mabry pro";
-  src: url("../fonts/63469a93abf4cb3809f7a37e_mabry-light-pro.woff2") format("woff2"),
-    url("../fonts/6346931854c1433bd9ce78a0_mabry-light-pro.woff") format("woff"),
-    url("../fonts/62863dffaa6ab2597a960be3_mabry-light-pro.ttf") format("truetype"),
-    url("../fonts/634693460e39463d7a3b20c8_mabry-light-pro.eot") format("embedded-opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Mabry pro";
-  src: url("../fonts/63469c52657f0133f3af5f00_mabry-regular-pro.woff2") format("woff2"),
-    url("../fonts/63469c52abf4cb6d3bf7b754_mabry-regular-pro.woff") format("woff"),
-    url("../fonts/63469c52078daaf05a511a53_mabry-regular-pro.ttf") format("truetype"),
-    url("../fonts/63469c51844df5b9f419a8c9_mabry-regular-pro.eot") format("embedded-opentype"),
-    url("../fonts/62863dfff146fe6cf44024b7_mabry-regular-pro.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Swear banner";
-  src: url("../fonts/63469cf464a47c919895af7e_Swear_Banner-Bold.woff2") format("woff2"),
-    url("../fonts/63469cf4078daad0ca511d6a_Swear_Banner-Bold.woff") format("woff"),
-    url("../fonts/62863dc9396b695e180c8295_SwearBanner-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Swear banner cilati";
-  src: url("../fonts/63469cf4abf4cbaac7f7bd71_Swear_Banner-Thin_Cilati.woff") format("woff"),
-    url("../fonts/62863dc9c002572180816346_SwearBanner-ThinCilati.otf") format("opentype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Discordia";
-  src: url("../fonts/63519ef5b1c84ef2ff6e0005_Discordia-Italic.woff2") format("woff2"),
-    url("../fonts/6346916ae99435a835c8aef6_Discordia-Italic.woff") format("woff"),
-    url("../fonts/63466f573d158d3344e2c832_Discordia-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Avenir Hebrew Next";
-  src: url("../fonts/658bd17f2688f23f72bbc290_Linotype - Avenir Next Hebrew Bold.otf") format("opentype"),
-    url("../fonts/658bd239f3efd1f4a4af1080_Linotype - Avenir Next Hebrew Demi.otf") format("opentype"),
-    url("../fonts/634690f62321484431402c1c_b9359b3d-061e-4030-bc14-2c26cf8b8d92.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plusjakartasans";
-  src: url("../fonts/66af7ad733ce62c932ce895e_PlusJakartaSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Testsohnebreit Leicht";
-  src: url("../fonts/66af78dd73636ac2f00e76e2_TestSöhneBreit-Leicht.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 
 :root {
   --white: white;
@@ -2345,7 +2271,7 @@ textarea.w-select {
 
 body {
   color: #333;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2391,7 +2317,7 @@ ul {
 .body-text {
   background-color: #0000;
   width: 102%;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -2404,7 +2330,7 @@ ul {
   width: 102%;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-weight: 300;
 }
 
@@ -2465,7 +2391,7 @@ ul {
   height: 60vw;
   padding-top: 0;
   padding-bottom: 8vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 48px;
   display: flex;
   position: static;
@@ -2495,7 +2421,7 @@ ul {
   align-items: center;
   margin-top: 0;
   padding-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 19px;
   display: flex;
 }
@@ -2596,7 +2522,7 @@ ul {
   color: var(--gold);
   text-align: center;
   letter-spacing: .16vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 8vw;
   line-height: 90%;
 }
@@ -2631,7 +2557,7 @@ ul {
   width: 60%;
   margin-top: 0;
   padding-bottom: 8vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.6vw;
   font-weight: 300;
   line-height: 120%;
@@ -2644,31 +2570,31 @@ ul {
 
 .text-span {
   color: var(--tomato);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.6vw;
 }
 
 .text-span-2 {
   color: var(--gold);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.6vw;
 }
 
 .text-span-3 {
   color: var(--light-sky-blue);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.6vw;
 }
 
 .text-span-4 {
   color: var(--blue-violet);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.6vw;
 }
 
 .button {
   background-color: #0000;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;
@@ -2686,7 +2612,7 @@ ul {
 
 .text-block-6 {
   color: var(--plum);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;
@@ -2852,7 +2778,7 @@ ul {
   color: var(--blue-violet);
   text-align: right;
   letter-spacing: .05vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 5vw;
   font-weight: 700;
   line-height: 100%;
@@ -2898,7 +2824,7 @@ ul {
   height: 96px;
   margin-top: 0;
   padding: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 16px;
   line-height: 140%;
   display: flex;
@@ -3049,7 +2975,7 @@ ul {
   color: gray;
   letter-spacing: 0;
   text-indent: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 12px;
   line-height: 140%;
   text-decoration: none;
@@ -3080,7 +3006,7 @@ ul {
 
 .subscribe {
   color: var(--white);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 140%;
@@ -3088,7 +3014,7 @@ ul {
 
 .social {
   color: var(--plum);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -3107,7 +3033,7 @@ ul {
   color: var(--grey);
   padding-left: 16px;
   padding-right: 16px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -3139,7 +3065,7 @@ ul {
 }
 
 .link {
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-weight: 400;
 }
 
@@ -3166,7 +3092,7 @@ ul {
   width: 69%;
   margin-bottom: 0;
   padding-top: 6vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2vw;
   font-weight: 300;
   line-height: 110%;
@@ -3294,7 +3220,7 @@ ul {
   color: var(--grey);
   width: 69%;
   margin: 130px auto 53px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
 }
@@ -3333,7 +3259,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding-right: 2vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.3vw;
   font-weight: 300;
   line-height: 110%;
@@ -3341,19 +3267,19 @@ ul {
 
 .text-span-6 {
   color: var(--light-sky-blue);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.3vw;
 }
 
 .text-span-7 {
   color: var(--gold);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.3vw;
 }
 
 .text-span-8 {
   color: var(--tomato);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.3vw;
 }
 
@@ -3409,7 +3335,7 @@ ul {
   color: #00000080;
   margin-top: 80px;
   margin-left: 200px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 21px;
   font-weight: 300;
 }
@@ -3427,7 +3353,7 @@ ul {
   width: 76%;
   margin-top: 76px;
   margin-left: 196px;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 5.8vw;
   line-height: 104%;
   display: block;
@@ -3448,7 +3374,7 @@ ul {
   color: #fff;
   width: 50%;
   margin-left: 200px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 110%;
@@ -3616,7 +3542,7 @@ ul {
 .testimonial-text {
   cursor: none;
   width: 100%;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2vw;
   font-weight: 300;
   line-height: 120%;
@@ -3632,7 +3558,7 @@ ul {
   cursor: none;
   width: 100%;
   margin-bottom: 60px;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 3.5vw;
   line-height: 100%;
 }
@@ -3670,7 +3596,7 @@ ul {
 
 .text-block-15 {
   color: var(--white);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 29px;
   font-weight: 300;
   line-height: 100%;
@@ -3681,7 +3607,7 @@ ul {
   letter-spacing: .2rem;
   white-space: nowrap;
   object-fit: fill;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 19px;
   font-weight: 700;
   line-height: 100%;
@@ -3905,7 +3831,7 @@ ul {
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   display: flex;
 }
@@ -3925,7 +3851,7 @@ ul {
 }
 
 .list-item {
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   list-style-type: none;
 }
@@ -3934,7 +3860,7 @@ ul {
   flex: 0 auto;
   margin-left: 0;
   padding-left: 24px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   list-style-type: disc;
 }
@@ -3942,7 +3868,7 @@ ul {
 .text-block-18 {
   letter-spacing: .2px;
   margin-top: 0;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 60px;
   line-height: 100%;
 }
@@ -3961,7 +3887,7 @@ ul {
 }
 
 .body-dark {
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -4058,7 +3984,7 @@ ul {
 .link-2 {
   color: var(--gold);
   padding-top: 46px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .link-2.zikaron {
@@ -4196,7 +4122,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -4221,7 +4147,7 @@ ul {
 
 .body-light {
   color: var(--white);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -4969,7 +4895,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -4995,7 +4921,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -5062,7 +4988,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -5089,7 +5015,7 @@ ul {
 .link-2-copy {
   color: var(--medium-sea-green);
   padding-top: 46px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .image-8-copy {
@@ -5166,7 +5092,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -5319,7 +5245,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -5360,7 +5286,7 @@ ul {
 .link-purple {
   color: var(--blue-violet);
   padding-top: 46px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .link-purple.hide {
@@ -5379,7 +5305,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -5397,7 +5323,7 @@ ul {
 }
 
 .heading {
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 60px;
   line-height: 80%;
 }
@@ -5423,7 +5349,7 @@ ul {
 .body-homepage {
   background-color: var(--black);
   color: #1f1f1f;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -5468,7 +5394,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -5509,7 +5435,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -5562,7 +5488,7 @@ ul {
 .website-link {
   color: var(--blue-violet);
   padding-top: 46px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .website-link.teal {
@@ -5592,7 +5518,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -5722,7 +5648,7 @@ ul {
   text-align: center;
   width: 53%;
   padding-bottom: 6vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 6.2vw;
   line-height: 88%;
 }
@@ -5767,7 +5693,7 @@ ul {
   color: var(--white);
   margin-top: 1vw;
   margin-bottom: 2vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 100%;
@@ -5791,7 +5717,7 @@ ul {
   background-color: #0000;
   margin-bottom: 0;
   padding: 40px 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
 }
@@ -5854,7 +5780,7 @@ ul {
   margin-left: auto;
   padding-left: 16px;
   padding-right: 80px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   display: block;
@@ -5894,7 +5820,7 @@ ul {
 .text-block-23 {
   color: var(--white);
   text-align: left;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 120%;
@@ -5907,7 +5833,7 @@ ul {
 
 .text-span-10 {
   color: var(--blue-violet);
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 6vw;
   line-height: 120%;
 }
@@ -5918,7 +5844,7 @@ ul {
   width: 390px;
   margin-top: -60px;
   padding-top: 4px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
 }
 
@@ -5962,7 +5888,7 @@ ul {
   align-items: center;
   height: 20vw;
   padding-top: 8vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 7vw;
   line-height: 100%;
   display: flex;
@@ -6080,7 +6006,7 @@ ul {
 .subtitle {
   color: #1f1f1f;
   background-color: #0000;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -6261,7 +6187,7 @@ ul {
   color: #b3b3b3;
   cursor: pointer;
   padding-top: 8px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 120%;
@@ -6303,7 +6229,7 @@ ul {
 
 .coming-soon-tag.large {
   padding-top: 22vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   display: none;
 }
 
@@ -6748,7 +6674,7 @@ ul {
   color: var(--white);
   cursor: pointer;
   margin-top: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 100%;
@@ -6784,7 +6710,7 @@ ul {
 .text-block-30 {
   color: var(--white);
   cursor: none;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 30px;
   font-weight: 300;
   line-height: 100%;
@@ -7395,7 +7321,7 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
   padding-right: 16px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   line-height: 140%;
 }
@@ -7410,7 +7336,7 @@ ul {
   background-color: #0000;
   padding-left: 0;
   padding-right: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   line-height: 140%;
 }
@@ -7504,7 +7430,7 @@ ul {
 
 .text-span-12 {
   color: var(--blue-violet);
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
@@ -7733,7 +7659,7 @@ ul {
 .text-block-38 {
   color: var(--blue-violet);
   text-align: left;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 7.2vw;
   font-weight: 700;
   line-height: 90%;
@@ -7743,7 +7669,7 @@ ul {
   color: var(--white);
   text-align: left;
   margin-top: 3.5vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.6vw;
   font-weight: 300;
   line-height: 100%;
@@ -7756,7 +7682,7 @@ ul {
 .text-block-40 {
   color: var(--blue-violet);
   text-align: left;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 8vw;
   line-height: 100%;
 }
@@ -7765,7 +7691,7 @@ ul {
   color: var(--white);
   text-align: left;
   margin-top: 2vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.4vw;
   font-weight: 300;
 }
@@ -7826,7 +7752,7 @@ ul {
 .submit-button-3 {
   color: var(--plum);
   background-color: #0000;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 100%;
@@ -7838,7 +7764,7 @@ ul {
 }
 
 .text-block-42 {
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
@@ -7854,7 +7780,7 @@ ul {
   height: auto;
   padding-top: 96px;
   padding-bottom: 4vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 48px;
   display: flex;
   position: static;
@@ -7892,7 +7818,7 @@ ul {
   color: var(--grey);
   letter-spacing: .14px;
   max-width: none;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-weight: 300;
   line-height: 110%;
 }
@@ -7913,7 +7839,7 @@ ul {
   color: var(--white);
   cursor: pointer;
   padding-top: 8px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 120%;
@@ -8034,7 +7960,7 @@ ul {
 
 .post-big-headline {
   color: var(--white);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 40px;
   line-height: 120%;
 }
@@ -8069,7 +7995,7 @@ ul {
 .post-big-headline.serif {
   color: var(--plum);
   letter-spacing: .8px;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 700;
 }
 
@@ -8094,7 +8020,7 @@ ul {
   color: gray;
   text-align: right;
   letter-spacing: .17px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 17px;
   font-weight: 300;
   line-height: 110%;
@@ -8114,12 +8040,12 @@ ul {
 
 .text-span-14 {
   color: var(--plum);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .brains-link {
   color: var(--grey);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   line-height: 110%;
 }
 
@@ -8175,7 +8101,7 @@ ul {
 
 .post-big {
   color: var(--white);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 120%;
@@ -8201,7 +8127,7 @@ ul {
   letter-spacing: .8px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 120%;
@@ -8252,7 +8178,7 @@ ul {
 .post-regular {
   color: var(--white);
   letter-spacing: .22px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 120%;
@@ -8299,7 +8225,7 @@ ul {
 .text-span-16 {
   color: var(--light-sky-blue);
   letter-spacing: .8px;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 700;
 }
 
@@ -8391,7 +8317,7 @@ ul {
 .text-span-yellow {
   color: var(--gold);
   letter-spacing: .8px;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 700;
 }
 
@@ -8444,7 +8370,7 @@ ul {
 .text-span-purple {
   color: var(--blue-violet);
   letter-spacing: .8px;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 700;
 }
 
@@ -8473,7 +8399,7 @@ ul {
 .text-span-green {
   color: var(--medium-sea-green);
   letter-spacing: .8px;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 700;
 }
 
@@ -8519,7 +8445,7 @@ ul {
 .post-bottom-text {
   color: var(--white);
   letter-spacing: .22px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 120%;
@@ -8704,7 +8630,7 @@ ul {
 
 .text-span-19 {
   color: var(--light-sky-blue);
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 .post-heading-div {
@@ -8724,7 +8650,7 @@ ul {
 .post-quote {
   color: var(--white);
   letter-spacing: .22px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 120%;
@@ -8781,7 +8707,7 @@ ul {
 .post-intro {
   color: var(--white);
   letter-spacing: .22px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 120%;
@@ -9187,7 +9113,7 @@ ul {
   color: var(--white);
   text-align: center;
   letter-spacing: .4px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 44px;
   font-weight: 300;
   line-height: 100%;
@@ -9215,7 +9141,7 @@ ul {
   text-indent: 0;
   justify-content: center;
   align-items: center;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 100px;
   line-height: 90%;
   display: flex;
@@ -9308,7 +9234,7 @@ ul {
   color: var(--white);
   text-align: center;
   letter-spacing: .2px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 120%;
@@ -9449,7 +9375,7 @@ ul {
   letter-spacing: .2px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 6.3vw;
   line-height: 85%;
 }
@@ -9521,7 +9447,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin-left: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.24vw;
   font-weight: 300;
   line-height: 120%;
@@ -9656,7 +9582,7 @@ ul {
   color: #b6b6b6;
   text-align: center;
   letter-spacing: .04vw;
-  font-family: Swear banner cilati, sans-serif;
+  font-family: 'Cairo' cilati, sans-serif;
   font-size: 6.2vw;
   font-weight: 100;
   line-height: 114%;
@@ -9767,7 +9693,7 @@ ul {
 .text-block-43 {
   color: var(--tomato);
   width: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 110%;
@@ -9869,7 +9795,7 @@ ul {
   text-align: center;
   flex: 0 auto;
   margin-bottom: 2px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.4vw;
   font-weight: 300;
   line-height: 100%;
@@ -10290,7 +10216,7 @@ ul {
   color: var(--black);
   letter-spacing: .1rem;
   margin-bottom: .2em;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
 }
@@ -10298,7 +10224,7 @@ ul {
 .cookie-modal_title.is-small {
   color: var(--blue-violet);
   letter-spacing: 0;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 2rem;
   display: block;
 }
@@ -10516,7 +10442,7 @@ ul {
 .rich-text-block {
   color: var(--white);
   margin-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -10683,13 +10609,13 @@ ul {
 .text-span-53 {
   color: var(--light-sky-blue);
   letter-spacing: .8px;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 .text-span-54 {
   color: var(--gold);
   letter-spacing: .8px;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 .image-61 {
@@ -10699,7 +10625,7 @@ ul {
 .text-block-44 {
   color: var(--white);
   margin-bottom: 1vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 3vw;
   font-weight: 300;
   position: absolute;
@@ -10903,7 +10829,7 @@ ul {
   text-indent: 0;
   column-count: auto;
   margin-top: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2vw;
   font-weight: 300;
   line-height: 110%;
@@ -10944,7 +10870,7 @@ ul {
   color: var(--light-sky-blue);
   flex-direction: row;
   align-items: flex-start;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 7vw;
   font-weight: 700;
   line-height: 85%;
@@ -10969,14 +10895,14 @@ ul {
 
 .text-block-48 {
   color: var(--plum);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.2vw;
   font-weight: 300;
 }
 
 .text-block-49 {
   color: var(--white);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.2vw;
   font-weight: 300;
   line-height: 120%;
@@ -10984,7 +10910,7 @@ ul {
 
 .text-block-50 {
   color: var(--grey);
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.2vw;
   font-weight: 300;
   display: flex;
@@ -11092,7 +11018,7 @@ ul {
 .text-block-51 {
   color: var(--white);
   letter-spacing: .4vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   font-weight: 300;
 }
@@ -11100,7 +11026,7 @@ ul {
 .text-block-52 {
   color: var(--plum);
   letter-spacing: .4vh;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 72px;
 }
 
@@ -11194,7 +11120,7 @@ ul {
   justify-content: center;
   align-items: center;
   padding: .4vw 1vw .5vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.24vw;
   font-weight: 400;
   line-height: 120%;
@@ -11260,7 +11186,7 @@ ul {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 5vw;
   font-weight: 700;
   line-height: 100%;
@@ -11276,7 +11202,7 @@ ul {
 .text-span-56 {
   color: var(--white);
   letter-spacing: .08vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.6vw;
   font-weight: 300;
   line-height: 100%;
@@ -11366,7 +11292,7 @@ ul {
   color: var(--plum);
   text-align: center;
   letter-spacing: .2vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 5vw;
   font-weight: 700;
   line-height: 90%;
@@ -11381,7 +11307,7 @@ ul {
   align-items: center;
   width: 300px;
   padding-left: 16px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;
@@ -11425,7 +11351,7 @@ ul {
   align-items: center;
   width: 300px;
   padding-left: 16px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;
@@ -11442,7 +11368,7 @@ ul {
 .text-span-9-copy {
   color: var(--white);
   letter-spacing: .08vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 3vw;
   font-weight: 300;
 }
@@ -11453,7 +11379,7 @@ ul {
   letter-spacing: .25vw;
   width: auto;
   padding-bottom: 6vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 6.2vw;
   font-weight: 700;
   line-height: 72%;
@@ -11525,7 +11451,7 @@ ul {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 100%;
@@ -11547,7 +11473,7 @@ ul {
   color: var(--blue-violet);
   text-align: left;
   letter-spacing: .2vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 5.2vw;
   line-height: 100%;
 }
@@ -11557,7 +11483,7 @@ ul {
   text-align: left;
   letter-spacing: .16vw;
   margin-top: 1vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 2.8vw;
   font-weight: 300;
   line-height: 100%;
@@ -11761,7 +11687,7 @@ ul {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 100%;
@@ -11957,7 +11883,7 @@ ul {
   color: var(--white);
   text-align: center;
   letter-spacing: .2px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.8vw;
   font-weight: 300;
   line-height: 120%;
@@ -11998,7 +11924,7 @@ ul {
   background-color: #0000;
   border-radius: 32px;
   padding: 11px 24px 12px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 19px;
   line-height: 20px;
   text-decoration: none;
@@ -12040,7 +11966,7 @@ ul {
 .text-block-55 {
   color: var(--plum);
   margin-bottom: 4vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 100%;
@@ -12111,7 +12037,7 @@ ul {
   background-color: #0000;
   border-radius: 20px;
   padding: 10px 24px 12px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 16px;
   line-height: 100%;
   text-decoration: none;
@@ -12165,7 +12091,7 @@ ul {
   color: var(--plum);
   padding-top: 11px;
   padding-bottom: 12px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 19px;
   font-weight: 400;
   line-height: 100%;
@@ -12259,7 +12185,7 @@ ul {
   justify-content: flex-start;
   align-items: center;
   width: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 140%;
@@ -12697,7 +12623,7 @@ ul {
 }
 
 .text-span-57 {
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-style: normal;
   font-weight: 700;
   position: static;
@@ -12779,7 +12705,7 @@ ul {
   justify-content: flex-start;
   align-items: center;
   margin: 4vw auto;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 5vw;
   font-weight: 700;
   line-height: 100%;
@@ -12797,7 +12723,7 @@ ul {
 .text-block-58 {
   color: var(--white);
   padding-bottom: 6px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 1.6vw;
   font-weight: 400;
 }
@@ -12914,7 +12840,7 @@ ul {
 
 .text-block-6-copy {
   color: var(--plum);
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 100%;
@@ -13108,7 +13034,7 @@ ul {
   color: var(--white);
   text-indent: 0;
   border-left-style: none;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .categories-blue {
@@ -13119,7 +13045,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -13447,7 +13373,7 @@ ul {
 }
 
 .button-text {
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 120%;
@@ -13529,7 +13455,7 @@ ul {
   width: auto;
   padding-top: 0;
   padding-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -13847,7 +13773,7 @@ ul {
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   display: block;
 }
 
@@ -13966,13 +13892,13 @@ ul {
 }
 
 .heading-3 {
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
 
 .heading-cb {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Swear banner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 54px;
 }
 
@@ -13990,7 +13916,7 @@ ul {
 
 .subtitle-cb.light {
   color: #f3f2ee;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 60px;
 }
 
@@ -15052,7 +14978,7 @@ ul {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 110%;
@@ -15065,7 +14991,7 @@ ul {
   letter-spacing: .04em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 80px;
   font-weight: 700;
   line-height: 90%;
@@ -15190,7 +15116,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -15270,7 +15196,7 @@ ul {
 .section-body {
   background-color: #0000;
   width: 100%;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -15283,7 +15209,7 @@ ul {
   width: 102%;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-weight: 300;
 }
 
@@ -15298,7 +15224,7 @@ ul {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 32px;
   line-height: 120%;
 }
@@ -15982,7 +15908,7 @@ ul {
   margin-right: 0;
   padding-top: 0;
   padding-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
 }
 
@@ -16052,7 +15978,7 @@ ul {
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 22px;
   display: flex;
 }
@@ -18219,7 +18145,7 @@ ul {
     padding-top: 0;
     padding-left: 16px;
     padding-right: 0;
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 140%;
@@ -21039,7 +20965,7 @@ ul {
     border-bottom-color: var(--grey);
     color: var(--grey);
     padding-right: 4px;
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 140%;
@@ -21057,7 +20983,7 @@ ul {
 
   .subscribe-button {
     text-align: right;
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 140%;
@@ -21198,13 +21124,13 @@ ul {
 
   .text-span-13 {
     color: var(--blue-violet);
-    font-family: Swearbanner, sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 28px;
     line-height: 100%;
   }
 
   .text-span-13.popup {
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 24px;
   }
 
@@ -21214,7 +21140,7 @@ ul {
 
   .text-block-33 {
     color: var(--black);
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-size: 22px;
     font-weight: 300;
     line-height: 120%;
@@ -22498,7 +22424,7 @@ ul {
   }
 
   .link-8 {
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Tajawal', sans-serif;
     line-height: 100%;
     display: flex;
   }
