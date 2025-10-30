@@ -2155,6 +2155,34 @@ textarea.w-select {
   padding: 10px;
 }
 
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/cairo-v31-arabic-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/cairo-v31-arabic-700.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/tajawal-v12-arabic-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/tajawal-v12-arabic-700.ttf') format('truetype');
+}
+
 .w-dyn-hide,
 .w-dyn-bind-empty,
 .w-condition-invisible {
@@ -2345,7 +2373,7 @@ textarea.w-select {
 
 body {
   color: #333;
-  font-family: Mabry pro, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2465,7 +2493,7 @@ ul {
   height: 60vw;
   padding-top: 0;
   padding-bottom: 8vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 48px;
   display: flex;
   position: static;
@@ -5806,7 +5834,7 @@ ul {
   text-align: right;
   margin-bottom: 16px;
   padding-right: 0;
-  font-family: Linotype avenir next hebrew, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 18px;
   font-weight: 300;
 }
@@ -8734,7 +8762,7 @@ ul {
   direction: rtl;
   text-align: right;
   letter-spacing: .8px;
-  font-family: Discordia, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
@@ -9656,7 +9684,7 @@ ul {
   color: #b6b6b6;
   text-align: center;
   letter-spacing: .04vw;
-  font-family: Swear banner cilati, sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 6.2vw;
   font-weight: 100;
   line-height: 114%;
@@ -14321,7 +14349,7 @@ ul {
   width: auto;
   max-width: 26ch;
   margin-bottom: 0;
-  font-family: Testsohnebreit Leicht, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 30px;
   overflow: visible;
 }
@@ -14360,7 +14388,7 @@ ul {
   margin-bottom: 0;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: Plusjakartasans, sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-size: 18px;
   line-height: 1.4em;
 }
