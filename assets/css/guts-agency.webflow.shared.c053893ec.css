@@ -2165,83 +2165,6 @@ textarea.w-select {
   display: grid;
 }
 
-@font-face {
-  font-family: "Mabry pro";
-  src: url("../fonts/63469a93abf4cb3809f7a37e_mabry-light-pro.woff2") format("woff2"),
-    url("../fonts/6346931854c1433bd9ce78a0_mabry-light-pro.woff") format("woff"),
-    url("../fonts/62863dffaa6ab2597a960be3_mabry-light-pro.ttf") format("truetype"),
-    url("../fonts/634693460e39463d7a3b20c8_mabry-light-pro.eot") format("embedded-opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Mabry pro";
-  src: url("../fonts/63469c52657f0133f3af5f00_mabry-regular-pro.woff2") format("woff2"),
-    url("../fonts/63469c52abf4cb6d3bf7b754_mabry-regular-pro.woff") format("woff"),
-    url("../fonts/63469c52078daaf05a511a53_mabry-regular-pro.ttf") format("truetype"),
-    url("../fonts/63469c51844df5b9f419a8c9_mabry-regular-pro.eot") format("embedded-opentype"),
-    url("../fonts/62863dfff146fe6cf44024b7_mabry-regular-pro.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Swear banner";
-  src: url("../fonts/63469cf464a47c919895af7e_Swear_Banner-Bold.woff2") format("woff2"),
-    url("../fonts/63469cf4078daad0ca511d6a_Swear_Banner-Bold.woff") format("woff"),
-    url("../fonts/62863dc9396b695e180c8295_SwearBanner-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Swear banner cilati";
-  src: url("../fonts/63469cf4abf4cbaac7f7bd71_Swear_Banner-Thin_Cilati.woff") format("woff"),
-    url("../fonts/62863dc9c002572180816346_SwearBanner-ThinCilati.otf") format("opentype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Discordia";
-  src: url("../fonts/63519ef5b1c84ef2ff6e0005_Discordia-Italic.woff2") format("woff2"),
-    url("../fonts/6346916ae99435a835c8aef6_Discordia-Italic.woff") format("woff"),
-    url("../fonts/63466f573d158d3344e2c832_Discordia-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Avenir Hebrew Next";
-  src: url("../fonts/658bd17f2688f23f72bbc290_Linotype - Avenir Next Hebrew Bold.otf") format("opentype"),
-    url("../fonts/658bd239f3efd1f4a4af1080_Linotype - Avenir Next Hebrew Demi.otf") format("opentype"),
-    url("../fonts/634690f62321484431402c1c_b9359b3d-061e-4030-bc14-2c26cf8b8d92.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plusjakartasans";
-  src: url("../fonts/66af7ad733ce62c932ce895e_PlusJakartaSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Testsohnebreit Leicht";
-  src: url("../fonts/66af78dd73636ac2f00e76e2_TestSöhneBreit-Leicht.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 
 :root {
   --white: white;
@@ -2265,6 +2188,30 @@ textarea.w-select {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/cairo-v31-arabic-700.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/tajawal-v12-arabic-300.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/tajawal-v12-arabic-400.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
 }
 
 .w-checkbox {
@@ -2345,7 +2292,7 @@ textarea.w-select {
 
 body {
   color: #333;
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2391,7 +2338,7 @@ ul {
 .body-text {
   background-color: #0000;
   width: 102%;
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 22px;
   font-weight: 300;
   line-height: 140%;
@@ -2404,7 +2351,7 @@ ul {
   width: 102%;
   margin-left: auto;
   margin-right: auto;
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-weight: 300;
 }
 
@@ -2465,7 +2412,7 @@ ul {
   height: 60vw;
   padding-top: 0;
   padding-bottom: 8vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: Cairo, sans-serif;
   font-size: 48px;
   display: flex;
   position: static;
@@ -2495,7 +2442,7 @@ ul {
   align-items: center;
   margin-top: 0;
   padding-bottom: 0;
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 19px;
   display: flex;
 }
@@ -2596,7 +2543,7 @@ ul {
   color: var(--gold);
   text-align: center;
   letter-spacing: .16vw;
-  font-family: Swearbanner, sans-serif;
+  font-family: Cairo, sans-serif;
   font-size: 8vw;
   line-height: 90%;
 }
@@ -2631,7 +2578,7 @@ ul {
   width: 60%;
   margin-top: 0;
   padding-bottom: 8vw;
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 2.6vw;
   font-weight: 300;
   line-height: 120%;
@@ -2644,31 +2591,31 @@ ul {
 
 .text-span {
   color: var(--tomato);
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 2.6vw;
 }
 
 .text-span-2 {
   color: var(--gold);
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 2.6vw;
 }
 
 .text-span-3 {
   color: var(--light-sky-blue);
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 2.6vw;
 }
 
 .text-span-4 {
   color: var(--blue-violet);
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 2.6vw;
 }
 
 .button {
   background-color: #0000;
-  font-family: Mabry pro, sans-serif;
+  font-family: Tajawal, sans-serif;
   font-size: 24px;
   font-weight: 300;
   line-height: 24px;
